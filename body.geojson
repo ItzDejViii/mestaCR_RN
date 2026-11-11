@@ -45,6 +45,15 @@
           49.9666713
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 99,
+        "nazev": "Bohuslavice",
+        "popisek": "David Nepšinský"
+      },
+      "geometry": { "type": "Point", "coordinates": [16.9571, 49.6208] }
     }
   ]
 }
