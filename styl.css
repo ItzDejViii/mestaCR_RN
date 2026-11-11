@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.hlavicka {
+  background: #1f3b5c;
+  color: #fff;
+  padding: 0.6rem 1rem;
+}
+
+.hlavicka h1 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+#map {
+  flex: 1;
+  width: 100%;
+}
+
+/* Popup */
+.leaflet-popup-content h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.05rem;
+  color: #1f3b5c;
+}
+
+.leaflet-popup-content p {
+  margin: 0;
+}
