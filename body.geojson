@@ -3,26 +3,47 @@
   "features": [
     {
       "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4378,
+          50.0755
+        ]
+      },
       "properties": {
         "id": 1,
         "nazev": "Praha",
         "popisek": "Hlavní město České republiky."
-      },
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.4378, 50.0755]
+        "coordinates": [
+          17.2509,
+          49.5938
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "nazev": "Olomouc",
+        "popisek": "Krajské město Olomouckého kraje, sídlo Univerzity Palackého."
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": 2,
-        "nazev": "Olomouc",
-        "popisek": "Krajské město Olomouckého kraje, sídlo Univerzity Palackého."
+        "id": 3,
+        "nazev": "Šumperk",
+        "popisek": "moje bydliste"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [17.2509, 49.5938]
+        "coordinates": [
+          16.9466011,
+          49.9666713
+        ]
       }
     }
   ]
